@@ -1,0 +1,32 @@
+{
+  "image": "docker.io/python:latest",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "githubPullRequests.ignoredPullRequestBranches": [
+          "main"
+      ],
+        "git.autofetch": true,
+        "editor.minimap.enabled": false,
+        "editor.quickSuggestions": {
+          "comments": "off",
+          "other": "off",
+          "strings": "off"
+        },
+        "editor.suggestOnTriggerCharacters": false,
+        "extensions.ignoreRecommendations": true,
+        "github.codespaces.devcontainerChangedNotificationStyle": "none",
+        "workbench.startupEditor": "none",
+        "workbench.tips.enabled": false,
+        "workbench.welcomePage.walkthroughs.openOnInstall": false
+      },
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "features": {
+  "ghcr.io/devcontainers/features/github-cli:1.0.10": {}
+  },
+  "postCreateCommand": "pip install pytest"
+}
