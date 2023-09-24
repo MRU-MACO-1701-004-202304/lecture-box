@@ -3,5 +3,8 @@
         "."
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "editor.hover.enabled": false,
+    "editor.hover.sticky": false,
+    "editor.parameterHints.enabled": false
 }

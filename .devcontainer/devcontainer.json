@@ -21,7 +21,8 @@
         "workbench.welcomePage.walkthroughs.openOnInstall": false
       },
       "extensions": [
-        "ms-python.python"
+        "ms-python.python",
+        "streetsidesoftware.code-spell-checker"
       ]
     }
   },
